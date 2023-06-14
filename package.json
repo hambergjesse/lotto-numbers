@@ -10,14 +10,24 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "crypto": "^1.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "chromedriver": "^114.0.2",
     "million": "^2.4.4",
-    "preact": "^10.13.2"
+    "norsk-tipping": "^2.0.5",
+    "preact": "^10.13.2",
+    "puppeteer-core": "^20.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "selenium-webdriver": "^4.10.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
+    "@types/chromedriver": "^81.0.1",
+    "@types/puppeteer": "^7.0.4",
     "@types/selenium-webdriver": "^4.1.15",
-    "selenium-webdriver": "^4.10.0",
+    "puppeteer": "^20.6.0",
+    "sass": "^1.63.4",
+    "sass-loader": "^13.3.2",
     "typescript": "^5.0.2",
     "vite": "^4.3.9"
   }

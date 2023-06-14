@@ -1,0 +1,85 @@
+main.app__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 10px;
+
+  h1 {
+    color: $lottery-white;
+    text-align: center;
+    line-height: 32px;
+    font-size: 30px;
+    width: 300px;
+  }
+
+  section.number__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $lottery-highlight;
+    background: rgb(25, 25, 31);
+    background-color: rgb(25, 25, 31);
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    gap: 25px;
+
+    ul.lottery-numbers {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: green;
+        color: $lottery-white;
+        border: 1px solid $lottery-highlight;
+        height: 35px;
+        width: 35px;
+      }
+    }
+
+    ul.euro-numbers {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 25px;
+
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid $lottery-highlight;
+        background: gold;
+        color: $lottery-black;
+        height: 35px;
+        width: 35px;
+      }
+    }
+  }
+
+  button {
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid $lottery-highlight;
+    background: rgb(25, 25, 31);
+    background-color: rgb(25, 25, 31);
+    transition: 0.15s ease-in-out;
+    color: $lottery-grey;
+    border-radius: 15px;
+    padding: 15px;
+
+    &:hover {
+      color: $lottery-white;
+    }
+  }
+}

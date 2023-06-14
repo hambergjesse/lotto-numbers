@@ -1,5 +1,5 @@
 // Sample past EuroJackpot data
-const euroJackpotData: { numbers: number[]; euroNumbers: number[] }[] = [
+export const euroJackpotData: { numbers: number[]; euroNumbers: number[] }[] = [
   { numbers: [5, 12, 23, 38, 42], euroNumbers: [4, 10] },
   { numbers: [8, 15, 22, 30, 32], euroNumbers: [2, 8] },
   { numbers: [1, 7, 15, 29, 36], euroNumbers: [3, 6] },
@@ -27,7 +27,7 @@ const euroJackpotData: { numbers: number[]; euroNumbers: number[] }[] = [
 ];
 
 // Function to generate optimal numbers
-const generateOptimalNumbers = (
+export const generateOptimalNumbers = (
   pastData: { numbers: number[]; euroNumbers: number[] }[]
 ): { numbers: number[]; euroNumbers: number[] } => {
   // Calculate number frequency
