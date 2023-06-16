@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { euroJackpotData } from "../algorithm";
+import { euroJackpotData } from "../../data/pastResults";
 
 describe("EuroJackpot", () => {
   it("should return the correct numbers and star numbers for a specific draw", () => {

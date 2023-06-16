@@ -2,8 +2,8 @@ import { useState } from "preact/hooks";
 import {
   optimalEuroJackpotNumbers,
   generateOptimalNumbers,
-  euroJackpotData,
 } from "./functions/algorithm";
+import { euroJackpotData } from "./data/pastResults";
 
 import { Copyright } from "./components/Copyright";
 

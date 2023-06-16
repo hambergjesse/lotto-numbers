@@ -18,13 +18,25 @@ To use this repository, follow these steps:
 - Provides a user interface to view the generated numbers and star numbers.
 - Allows generating new optimal numbers on demand.
 
+To automate testing and guarantee a consistent coding style, this repository utilizes the following tools:
+
+- [Husky](https://www.npmjs.com/package/husky): A Git hook manager that allows running scripts before committing or pushing code changes.
+- [lint-staged](https://www.npmjs.com/package/lint-staged): A tool that runs linters on staged files, allowing you to check and format code changes before they are committed.
+- [Vitest](https://www.npmjs.com/package/vitest): A fast and lightweight test runner for JavaScript and TypeScript projects.
+- [ESLint](https://eslint.org/): A pluggable linting utility for JavaScript and TypeScript that helps identify and enforce coding style and best practices.
+- [Prettier](https://prettier.io/): An opinionated code formatter that automatically formats code according to a predefined style guide.
+
 ## Dependencies
 
-- [axios](https://www.npmjs.com/package/axios) - Promise-based HTTP client for making API requests.
-- [million](https://www.npmjs.com/package/million) - Utility library for working with large numbers.
-- [preact](https://www.npmjs.com/package/preact) - Fast 3kB alternative to React with the same modern API.
-- [react](https://www.npmjs.com/package/react) - JavaScript library for building user interfaces.
-- [react-dom](https://www.npmjs.com/package/react-dom) - Entry point to the DOM and server renderers for React.
+- [million](https://www.npmjs.com/package/million)
+- [preact](https://www.npmjs.com/package/preact)
+- [react](https://www.npmjs.com/package/react)
+- [react-dom](https://www.npmjs.com/package/react-dom)
+- axios@^1.4.0
+- million@^2.4.4
+- preact@^10.13.2
+- react@^18.2.0
+- react-dom@^18.2.0
 
 ## Development Dependencies
 
@@ -33,6 +45,11 @@ To use this repository, follow these steps:
 - [sass-loader](https://www.npmjs.com/package/sass-loader) - Sass loader for webpack.
 - [typescript](https://www.npmjs.com/package/typescript) - Typed JavaScript at Any Scale.
 - [vite](https://www.npmjs.com/package/vite) - Next Generation Frontend Tooling.
+- vitest@^0.32.0
+- @typescript-eslint/eslint-plugin@^5.59.11
+- @typescript-eslint/parser@^5.59.11
+- @vitest/coverage-v8@^0.32.0
+- eslint@^8.42.0
 
 ## License
 
