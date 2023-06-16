@@ -1,6 +1,9 @@
 # Lotto Numbers
 
-This is a repository for generating optimal lotto numbers for the EuroJackpot lottery.
+The "Lotto Numbers" project is a comprehensive repository designed to generate optimal lotto numbers specifically for the EuroJackpot lottery. It offers a user-friendly solution that combines a powerful algorithm with historical data retrieval, enabling users to generate and explore optimal number combinations.
+<br><br>
+
+![github preview image](./public/github-preview.webp)
 
 ## Usage
 
@@ -53,6 +56,6 @@ To automate testing and guarantee a consistent coding style, this repository uti
 
 ## License
 
-This repository is private and the code is not available under an open-source license.
+This repository is public and the code is available under an open-source license.
 
 © 2023 Jesse Hamberg. All rights reserved.
