@@ -58,4 +58,4 @@ To automate testing and guarantee a consistent coding style, this repository uti
 
 This repository is public and the code is available under an open-source license.
 
-© 2023 Jesse Hamberg. All rights reserved.
+© 2024 Your Mom. All rights reserved.

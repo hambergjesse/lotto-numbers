@@ -29,10 +29,10 @@ export const Copyright = () => {
 
   return (
     <section className="copyright__container" style={sectStyle}>
-      <a href="mailto:contact@hambergjesse.com" style={aStyle}>
-        contact@hambergjesse.com
+      <a href="mailto:contact@yourmom.com" style={aStyle}>
+        contact@yourmom.com
       </a>
-      <p style={pStyle}>© {currYear} Jesse Hamberg. All rights reserved.</p>
+      <p style={pStyle}>© {currYear} Your Mom. All rights reserved.</p>
     </section>
   );
 };
